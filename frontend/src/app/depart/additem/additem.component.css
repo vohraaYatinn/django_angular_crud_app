@@ -1,0 +1,13 @@
+.center-flex{
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 1rem;
+}

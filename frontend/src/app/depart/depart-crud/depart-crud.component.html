@@ -1,0 +1,24 @@
+<!-- <button></button> -->
+
+<table class="table">
+    <thead>
+      <tr>
+    
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let value of table">
+        <td>{{value.Departmentid}}</td>
+        <td>{{value.Departmentname}}</td>
+        <td class="actionButtons">
+
+            <button routerLink="/deptedit/{{value.Departmentid}}">edit</button>
+            <button (click)="delete(value.Departmentid)">Delete</button>
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
