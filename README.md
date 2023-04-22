@@ -29,3 +29,4 @@ npm start
 #or if you want to learn full stack development you can contact me
 
 www.instagram.com/vohra_yatin
+email: vohrayatin9@gmail.com
